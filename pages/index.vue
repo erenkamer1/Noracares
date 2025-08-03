@@ -6,6 +6,11 @@
       <div class="relative z-10 max-w-6xl mx-auto px-4 sm:px-6 lg:px-8 text-center">
         <div class="animate-fade-in-up">
           <div class="mb-8">
+            <div class="mb-12 text-center -mt-16">
+              <h3 class="text-2xl md:text-4xl font-bold text-purple-600 uppercase tracking-wider transform transition-all duration-300 hover:scale-110 hover:text-purple-700 hover:tracking-widest cursor-default animate-pulse">
+                🎯 Hello Noracares Team! 
+              </h3>
+            </div>
             <div class="w-32 h-32 mx-auto rounded-full noracares-gradient flex items-center justify-center mb-6 shadow-2xl">
               <span class="text-white font-bold text-4xl">EK</span>
             </div>
