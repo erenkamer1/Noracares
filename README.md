@@ -1,4 +1,4 @@
-# 🚀 Noracares İş Başvurusu - Eren Kamer Portfolio
+# 🚀 Noracares Job Application - Eren Kamer Portfolio
 
 [![Vue.js](https://img.shields.io/badge/Vue.js-4FC08D?style=for-the-badge&logo=vue.js&logoColor=white)](https://vuejs.org/)
 [![Nuxt.js](https://img.shields.io/badge/Nuxt.js-00DC82?style=for-the-badge&logo=nuxt.js&logoColor=white)](https://nuxt.com/)
@@ -6,165 +6,165 @@
 [![Tailwind CSS](https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white)](https://tailwindcss.com/)
 [![GraphQL](https://img.shields.io/badge/GraphQL-E10098?style=for-the-badge&logo=graphql&logoColor=white)](https://graphql.org/)
 
-> **Özel Not:** Bu website, **Noracares** firmasına Full Stack Developer pozisyonu için iş başvurum kapsamında özel olarak geliştirilmiştir. Tech stack uyumunu ve modern web geliştirme becerilerimi göstermek amacıyla Vue.js 3, Nuxt.js, TypeScript ve GraphQL teknolojileri kullanılmıştır.
+> **Special Note:** This website was specifically developed for my Full Stack Developer position application to **Noracares**. Vue.js 3, Nuxt.js, TypeScript, and GraphQL technologies were used to demonstrate tech stack compatibility and modern web development skills.
 
-## 🎯 Proje Amacı
+## 🎯 Project Purpose
 
-Bu portfolio website'i, Noracares ekibine aşağıdakileri göstermek için tasarlanmıştır:
+This portfolio website is designed to showcase the following to the Noracares team:
 
-- **Vue.js 3 & Nuxt.js** expertise ve hızlı adaptasyon yeteneği
-- **TypeScript** ile type-safe development yaklaşımı
-- **Modern Component Architecture** ve best practices
-- **GraphQL Apollo Client** entegrasyonu deneyimi
-- **Responsive Design** ve modern UI/UX prensipleri
-- **State Management** (Pinia) kullanımı
+- **Vue.js 3 & Nuxt.js** expertise and rapid adaptation capabilities
+- **TypeScript** type-safe development approach
+- **Modern Component Architecture** and best practices
+- **GraphQL Apollo Client** integration experience
+- **Responsive Design** and modern UI/UX principles
+- **State Management** (Pinia) usage
 
-## 🛠️ Teknik Stack
+## 🛠️ Tech Stack
 
 ### Frontend
-- **Vue.js 3** - Composition API ile modern reactive framework
-- **Nuxt.js** - Full-stack Vue framework (SSR/SSG desteği)
-- **TypeScript** - Type safety ve developer experience
+- **Vue.js 3** - Modern reactive framework with Composition API
+- **Nuxt.js** - Full-stack Vue framework (SSR/SSG support)
+- **TypeScript** - Type safety and developer experience
 - **Tailwind CSS** - Utility-first CSS framework
-- **Pinia** - Vue için modern state management
+- **Pinia** - Modern state management for Vue
 
 ### Backend Integration
-- **Apollo Client** - GraphQL client kütüphanesi
-- **GraphQL** - API query language (demo implementasyonu)
+- **Apollo Client** - GraphQL client library
+- **GraphQL** - API query language (demo implementation)
 
-### Geliştirme Araçları
-- **ESLint & Prettier** - Code quality ve formatting
-- **Vite** - Hızlı build tool
+### Development Tools
+- **ESLint & Prettier** - Code quality and formatting
+- **Vite** - Fast build tool
 - **Git** - Version control
 
-## 🚀 Kurulum ve Çalıştırma
+## 🚀 Installation and Setup
 
-### Gereksinimler
+### Requirements
 - Node.js 16+ 
-- npm veya yarn
+- npm or yarn
 
-### Adımlar
+### Steps
 
 ```bash
-# Repository'yi klonlayın
+# Clone the repository
 git clone <repository-url>
 cd noracares-application
 
-# Bağımlılıkları yükleyin
+# Install dependencies
 npm install
 
-# Development server'ı başlatın
+# Start development server
 npm run dev
 ```
 
-Website şu adreste çalışacaktır: `http://localhost:3000`
+The website will be available at: `http://localhost:3000`
 
 ### Production Build
 
 ```bash
-# Production build oluşturun
+# Create production build
 npm run build
 
 # Production preview
 npm run preview
 ```
 
-## 📁 Proje Yapısı
+## 📁 Project Structure
 
 ```
 noracares-application/
-├── assets/css/           # Stil dosyaları
-├── components/           # Vue component'leri
-│   └── GraphQLDemo.vue   # GraphQL entegrasyon demosu
-├── pages/               # Nuxt sayfaları
-│   └── index.vue        # Ana sayfa
-├── plugins/             # Nuxt plugin'leri
-│   └── apollo.client.ts # Apollo Client konfigürasyonu
+├── assets/css/           # Style files
+├── components/           # Vue components
+│   └── GraphQLDemo.vue   # GraphQL integration demo
+├── pages/               # Nuxt pages
+│   └── index.vue        # Main page
+├── plugins/             # Nuxt plugins
+│   └── apollo.client.ts # Apollo Client configuration
 ├── stores/              # Pinia state stores
-│   └── profile.ts       # Profil bilgileri store'u
+│   └── profile.ts       # Profile information store
 ├── types/               # TypeScript type definitions
-│   └── index.ts         # Global tipler
-├── app.vue              # Ana uygulama layout'u
-├── nuxt.config.ts       # Nuxt konfigürasyonu
-└── tailwind.config.js   # Tailwind CSS konfigürasyonu
+│   └── index.ts         # Global types
+├── app.vue              # Main application layout
+├── nuxt.config.ts       # Nuxt configuration
+└── tailwind.config.js   # Tailwind CSS configuration
 ```
 
-## ✨ Özellikler
+## ✨ Features
 
 ### 🎨 Modern UI/UX
 - Responsive design (mobile-first approach)
-- Smooth animations ve transitions
+- Smooth animations and transitions
 - Glass morphism effects
-- Modern color palette ve typography
+- Modern color palette and typography
 
-### 🔧 Teknik Özellikler
-- **Type Safety:** Full TypeScript entegrasyonu
-- **State Management:** Pinia ile reactive data management
-- **Performance:** Nuxt.js ile optimized bundle size
-- **SEO:** Meta tags ve structured data
-- **Accessibility:** WCAG guidelines
+### 🔧 Technical Features
+- **Type Safety:** Full TypeScript integration
+- **State Management:** Reactive data management with Pinia
+- **Performance:** Optimized bundle size with Nuxt.js
+- **SEO:** Meta tags and structured data
+- **Accessibility:** WCAG guidelines compliance
 
 ### 📊 GraphQL Integration
-- Apollo Client konfigürasyonu
-- Mock query implementasyonu
-- Cache management örneği
+- Apollo Client configuration
+- Mock query implementation
+- Cache management example
 - Error handling
 
-## 📋 İçerik Bölümleri
+## 📋 Content Sections
 
 ### 1. Hero Section
-- Kişisel tanıtım
-- Noracares'e özel mesaj
-- Call-to-action butonları
+- Personal introduction
+- Special message for Noracares
+- Call-to-action buttons
 
-### 2. Hakkımda
-- CV bilgileri
-- Eğitim geçmişi
-- Dil yetkinlikleri
-- İletişim bilgileri
+### 2. About Me
+- CV information
+- Educational background
+- Language proficiencies
+- Contact information
 
-### 3. Deneyim
-- Profesyonel çalışma geçmişi
-- Teknoloji stackleri
-- Başarı metrikleri
+### 3. Experience
+- Professional work history
+- Technology stacks
+- Achievement metrics
 
-### 4. Teknik Yetenekler
-- Frontend & Backend teknolojiler
+### 4. Technical Skills
+- Frontend & Backend technologies
 - Database & DevOps
-- Metodolojiler
+- Methodologies
 
-### 5. Noracares Cevapları
-- İş başvurusu sorularına detaylı cevaplar
-- Highlighted önemli noktalar
-- Motivasyon ve vizyon
+### 5. Noracares Answers
+- Detailed answers to job application questions
+- Highlighted important points
+- Motivation and vision
 
 ### 6. GraphQL Demo
-- Canlı Apollo Client entegrasyonu
-- Örnek query'ler
-- Mock data gösterimi
+- Live Apollo Client integration
+- Example queries
+- Mock data demonstration
 
-## 🎯 Noracares İçin Özel Notlar
+## 🎯 Special Notes for Noracares
 
-### Tech Stack Uyumu
-Bu proje kasıtlı olarak Noracares'in kullandığı teknolojilerle uyumlu geliştirilmiştir:
-- ✅ **Vue.js 3** (Nuxt 3 uyumlu)
+### Tech Stack Compatibility
+This project was intentionally developed to be compatible with technologies used by Noracares:
+- ✅ **Vue.js 3** (Nuxt 3 compatible)
 - ✅ **TypeScript** (Strong typing)
 - ✅ **GraphQL** (Apollo Client)
 - ✅ **Modern CSS** (Tailwind)
 - ✅ **State Management** (Pinia)
 
-### Hızlı Adaptasyon
-Angular ve C#/.NET background'um ile birlikte, Vue.js ecosystem'ine hızlı adaptasyon kapasitemi göstermek istedim.
+### Rapid Adaptation
+With my Angular and C#/.NET background, I wanted to demonstrate my rapid adaptation capacity to the Vue.js ecosystem.
 
 ### Production Ready
-Bu proje production-ready code standards ile geliştirilmiştir:
+This project was developed with production-ready code standards:
 - Error handling
 - Type safety
 - Performance optimization
 - Security best practices
 - Accessible design
 
-## 👨‍💻 Geliştirici
+## 👨‍💻 Developer
 
 **Eren Batıkan Kamer**
 - 📧 Email: erenkamer28@gmail.com
@@ -173,20 +173,20 @@ Bu proje production-ready code standards ile geliştirilmiştir:
 - 💻 GitHub: [erenkamer1](https://github.com/erenkamer1)
 - 📍 Location: Linz, Austria
 
-## 📜 Lisans
+## 📜 License
 
-Bu proje kişisel kullanım ve iş başvurusu amaçlı geliştirilmiştir.
-
----
-
-**💼 Noracares Ekibine Özel Not:**
-
-Bu website, sizin tech stack'inize olan uyumumu ve modern web geliştirme yaklaşımımı göstermek için özenle tasarlandı. Vue.js 3, Nuxt.js, TypeScript ve GraphQL teknolojilerini bir araya getirerek, Noracares backend'inize nasıl entegre olabileceğimi demonstre etmek istedim.
-
-Her bir kod satırı, sizin ekibinizle çalışmaya hazır olduğumu ve tech stack transition'ın sorunsuz gerçekleşeceğini göstermek için yazıldı. 
-
-Umarım bu projem, benim Noracares ailesine katılmam için yeterli bir kanıt oluşturur! 🚀
+This project was developed for personal use and job application purposes.
 
 ---
 
-© 2025 Eren Kamer - Noracares İş Başvurusu için hazırlandı
+**💼 Special Note to Noracares Team:**
+
+This website was carefully designed to showcase my compatibility with your tech stack and modern web development approach. By bringing together Vue.js 3, Nuxt.js, TypeScript, and GraphQL technologies, I wanted to demonstrate how I could integrate with the Noracares backend.
+
+Every line of code was written to show that I'm ready to work with your team and that the tech stack transition would be seamless.
+
+I hope this project provides sufficient evidence for me to join the Noracares family! 🚀
+
+---
+
+© 2025 Eren Kamer - Prepared for Noracares Job Application
