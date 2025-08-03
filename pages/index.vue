@@ -31,10 +31,10 @@
                 I wanted to demonstrate my compatibility with your tech stack and modern web development skills.
               </p>
               <div class="flex flex-col sm:flex-row gap-4 justify-center">
-                <a @click.prevent="scrollToSection('noracares')" href="#noracares" class="btn-primary text-lg px-8 py-4">
+                <a @click.prevent="scrollToSection('noracares')" href="#noracares" class="btn-primary text-lg">
                   🚀 My Noracares Answers
                 </a>
-                <a @click.prevent="scrollToSection('about')" href="#about" class="btn-secondary text-lg px-8 py-4">
+                <a @click.prevent="scrollToSection('about')" href="#about" class="btn-secondary text-lg">
                   👨‍💻 CV & Experience
                 </a>
               </div>
