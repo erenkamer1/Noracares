@@ -187,7 +187,7 @@ html {
 
 body {
   background: rgb(249 250 251);
-  color: rgb(17 24 39);
+  color: rgb(39, 178, 159);
 }
 
 /* Component styles */
@@ -519,5 +519,4 @@ body {
 .bg-white\/90 { background-color: rgb(255 255 255 / 0.9); }
 .bg-white\/10 { background-color: rgb(255 255 255 / 0.1); }
 .border-white\/20 { border-color: rgb(255 255 255 / 0.2); }
-.text-white\/90 { color: rgb(255 255 255 / 0.9); }
 </style>
